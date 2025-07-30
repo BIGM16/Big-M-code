@@ -1,5 +1,5 @@
 {
-  "name": "christelle",
+  "name": "jonathan",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
-    "firebase": "^11.10.0"
+    "@vercel/speed-insights": "^1.2.0"
   }
 }
