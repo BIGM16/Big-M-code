@@ -63,13 +63,3 @@ function filterStudents() {
 courseFilter.addEventListener("change", filterStudents);
 formatFilter.addEventListener("change", filterStudents);
 searchInput.addEventListener("input", filterStudents);
-
-// Form submission (prevent default for demo)
-const forms = document.querySelectorAll("form");
-forms.forEach((form) => {
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    alert("Formulaire soumis avec succès ! (Ceci est une démo)");
-    form.reset();
-  });
-});
